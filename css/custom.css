@@ -1,4 +1,50 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /*insert custom css below*/
+
+body{
+  padding: 20px 60px;
+  margin: 0;
+  background-color:#e0e0eb;
+  font-family: Arial;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+.heading{
+  height: 75px;
+  width: 600px;
+  padding: 2px;
+  margin: 10px;
+}
+
+h1{
+  font-size: 1.7em;
+}
+
+h1 small{
+  font-size: .6em;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  border: 1px solid #737385;  /* make it 0 if you don't want anything */
+  padding: 25px;
+  margin: 15px;
+}
+
+.box a.read-more{
+  text-decoration: underline;
+}
